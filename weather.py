@@ -32,10 +32,10 @@ try:
             while blink_counter <= 1800:
                 # Blink Weather LED
                 GPIO.output(7, True)
-                print "Blink On"
+                # print "Blink On"
                 sleep(1)
                 GPIO.output(7, False)
-                print "Blink Off"
+                # print "Blink Off"
                 sleep(1)
                 blink_counter += 1
         else:
